@@ -426,7 +426,7 @@ footer {
   try {
     const client = await import('/@vite/client');
     const hmr = client.createHotContext('hmr-handler/fake.js');
-    hmr.on('vite:afterUpdate', window['__ICUBE_WEBVIEW_HMR_CALLBACK_1784887933336']);
+    hmr.on('vite:afterUpdate', window['__ICUBE_WEBVIEW_HMR_CALLBACK_1784889232140']);
   } catch {}
 })();</script><style>.buttonsCard-bTXa5j {
   padding: var(--spacer-4);
@@ -783,7 +783,7 @@ footer {
   try {
     const client = await import('/@vite/client');
     const hmr = client.createHotContext('hmr-handler/fake.js');
-    hmr.on('vite:afterUpdate', window['__ICUBE_WEBVIEW_HMR_CALLBACK_1784887933364']);
+    hmr.on('vite:afterUpdate', window['__ICUBE_WEBVIEW_HMR_CALLBACK_1784889232159']);
   } catch {}
 })();</script><style>.buttonsCard-bTXa5j {
   padding: var(--spacer-4);
@@ -2836,7 +2836,7 @@ footer {
 <body>
   <div class="app-container">
     <header>
-      <h1><i class="fas fa-wave-square"></i> L1音频增强器</h1>
+      <h1><i class="fas fa-signal"></i> L1音频增强器</h1>
       <p>基于 Web Audio API 的本地音频处理工具</p>
     </header>
 
@@ -2844,10 +2844,10 @@ footer {
       <div class="upload-section">
         <div class="upload-area" id="uploadArea">
           <div class="music-icon">
-            <i class="fas fa-music"></i>
+            <i class="fas fa-layer-group"></i>
           </div>
           <div id="fileNameDisplay" class="file-name">点击或拖拽上传音频文件</div>
-          <div id="fileHint" class="file-hint">支持格式：WAV, MP3, FLAC, AIFF, OGG, M4A 等浏览器可解码的音频文件</div>
+          <div id="fileHint" class="file-hint">支持格式：WAV, MP3</div>
         </div>
         <input type="file" id="fileInput" accept="audio/*" style="display: none;">
       </div>
@@ -2922,7 +2922,7 @@ footer {
             <label class="radio-label" data-bd="32">
               <input type="radio" name="bitDepth" value="32">
               <span class="radio-content">
-                <span class="radio-value">32位浮点</span>
+                <span class="radio-value">32位</span>
                 <span class="radio-desc">超高品质浮点</span>
               </span>
             </label>
@@ -3224,7 +3224,7 @@ footer {
         } catch (error) {
           console.error('解码失败:', error);
           fileNameDisplay.textContent = '文件解码失败，请尝试其他文件';
-          fileHint.textContent = '支持格式：WAV, MP3, FLAC, AIFF, OGG, M4A 等浏览器可解码的音频文件';
+          fileHint.textContent = '支持格式：WAV, MP3';
           convertBtn.disabled = true;
         }
       }
