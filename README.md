@@ -10,4 +10,5 @@ L1musicenhancer-音频增强器-提高清晰度和深度，改善音质<br>
 <br>
 位深度转换器<br>
 使用适当的抖动在16-bit、24-bit和32-bit float之间转换。<br>
-<img width="624" height="914" alt="image" src="https://github.com/user-attachments/assets/f11902e7-861d-4228-8a43-9d36657f887e" />
+<img width="580" height="933" alt="image" src="https://github.com/user-attachments/assets/61ed0780-d027-4109-b775-14e4872d1107" />
+
