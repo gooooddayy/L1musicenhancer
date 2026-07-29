@@ -2,7 +2,6 @@
 L1musicenhancer-音频增强器-提高清晰度和深度，改善音质<br>
 免费在线音频格式/采样率/位深度提升转换工具，全部在浏览器本地处理<br>
 【TRAE】https://share.traecontent.cn/artifact/D6CVAL2J_6JBNM<br>
-【WorkBuddy】https://workbuddy.link/p/XfhiNdmLKpBP1DH6Q3JkT3?ext2=copy_link<br>
 <br>
 音频转换器<br>
 在WAV、MP3之间转换<br>
