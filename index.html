@@ -2953,7 +2953,7 @@ footer {
         <h3>转换完成</h3>
         <div class="result-info">
           <div class="info-item">
-            <span class="info-label">原始采样率</span>
+            <span class="info-label">导出文件大小</span>
             <span class="info-value" id="srcSampleRate"></span>
           </div>
           <div class="info-item">
@@ -3258,7 +3258,7 @@ footer {
           const baseName = originalFile.name.replace(/\.[^/.]+$/, '');
           downloadBtn.download = baseName + '_' + targetSampleRate + 'Hz_' + targetBitDepth + 'bit' + result.extension;
 
-          srcSampleRate.textContent = audioBuffer.sampleRate + ' Hz';
+          srcSampleRate.textContent = (result.blob.size / (1024 * 1024)).toFixed(2) + ' MB';
           dstSampleRate.textContent = targetSampleRate + ' Hz';
           dstBitDepth.textContent = targetBitDepth + '-bit';
           dstFormat.textContent = result.formatName;
