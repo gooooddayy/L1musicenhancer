@@ -10,6 +10,6 @@ L1musicenhancer-音频增强器-提高清晰度和深度，改善音质<br>
 使用高质量插值将音频重新采样为44.1k、88.2k、96k、176.4k或192k Hz。<br>
 <br>
 位深度转换器<br>
-使用适当的抖动在16-bit、24-bit和32-bit float之间转换。<br>
+使用适当的抖动在16-bit、24-bit和32-bit 之间转换。<br>
 <img width="580" height="933" alt="image" src="https://github.com/user-attachments/assets/61ed0780-d027-4109-b775-14e4872d1107" />
 
